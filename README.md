@@ -56,10 +56,11 @@ The project begins with:
 - Creating the retail_sales table
 - Defining data types and constraints
 
-Example:
 
-CREATE DATABASE sql_project_p1;
 
+### Table Creation
+
+```sql
 CREATE TABLE retail_sales (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,
@@ -73,7 +74,7 @@ CREATE TABLE retail_sales (
     cogs FLOAT,
     total_sale FLOAT
 );
-
+```
 ------------------------------------------------------------
 
 ## 🧹 Data Cleaning
